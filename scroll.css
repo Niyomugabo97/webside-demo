@@ -1,0 +1,18 @@
+/* ScrollIcon.css */
+.scroll-icon {
+    position: fixed; /* Fixed position on the screen */
+    top: 50%; /* Position it at the middle vertically */
+    right: 20px; /* Position it on the right side */
+    transform: translateY(-50%); /* Adjust to perfectly center the icon vertically */
+    font-size: 30px; /* Size of the arrow */
+    color: #333; /* Icon color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    animation: bounce 1.5s infinite; /* Optional: make the icon bounce */
+}
+
+/* Optional: Add a bounce animation */
+@keyframes bounce {
+    0% { transform: translateY(-50%); }
+    50% { transform: translateY(-40%); }
+    100% { transform: translateY(-50%); }
+}

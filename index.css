@@ -1,0 +1,302 @@
+
+
+
+
+
+
+
+
+/* General styles for the navbar */
+/* General styles for the navbar */
+.nav {
+    position: fixed; /* Fixes the navbar in place */
+    top: 0; /* Aligns the navbar to the top of the page */
+    left: 0; /* Ensures it spans from the left side */
+    right: 0; /* Ensures it spans to the right side */
+    background-color: #388fc2;
+/* Ensures it stays on top of other content */
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  .nav li {
+    margin:20px; /* Adds spacing between items */
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .nav ul {
+      flex-direction:row; /* Stack the items vertically on smaller screens */
+      align-items: center;
+    }
+  
+    
+  }
+  h1{
+    padding:80px;
+  }
+
+  /*form*/
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    background-color: #f4f4f4;
+  }
+  
+  .signup-form {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    width:250px;
+    height:310px;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 5px;
+    text-align: left;
+  }
+  
+  input {
+    width:220px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #388fc2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top:10px;
+  }
+  .btn2{
+    width:100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+    justify-content: center;
+    padding:10px;
+    color: white;
+    background-color: #388fc2;
+    border:none;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor:pointer ;
+
+  }
+  .login-form{
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width:60%;
+    height:50vh ;
+
+  }
+  .label-input{
+    border: #231515;
+  
+
+  
+  }
+  h2{
+    text-align: center;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+
+  .log-image {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center image inside its container */
+    position: absolute;
+    left: 20px; /* Position it at the right */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    
+
+}
+
+.logo img {
+
+  border-radius: 50px;
+  width: 50px;
+  height: 70px;
+
+}
+
+
+
+/*footer*/
+
+
+.footer-container {
+
+/* Footer Container */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* Pushes the footer down */
+}
+
+.footer {
+  background: #2bb4cf;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+
+
+
+
+.footer-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Specific Colors for Each Icon */
+.whatsapp:hover {
+  color: #25d366;
+}
+
+.x-twitter:hover {
+  color: #1da1f2;
+}
+
+.facebook:hover {
+  color: #1877f2;
+}
+
+.instagram:hover {
+  color: #e4405f;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.footer-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Specific Colors for Each Icon */
+.whatsapp:hover {
+  color: #25d366;
+}
+
+.x-twitter:hover {
+  color: #1da1f2;
+}
+
+.facebook:hover {
+  color: #1877f2;
+}
+
+.instagram:hover {
+  color: #e4405f;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+  
+
